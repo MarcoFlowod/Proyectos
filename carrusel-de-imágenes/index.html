@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+    <link rel="stylesheet" href="style.css">
+    <title>Carrusel de imagenes</title>
+</head>
+<body>
+    
+    <h1>COLLAGE</h1>
+
+    <div class="container-carousel">
+        <div class="carruseles" id="slider">
+            <section class="slider-section">
+                <img src="img/1.jpg" alt="Imagen 1" data-caption="Imagen 1">
+            </section>
+            <section class="slider-section">
+                <img src="img/2.jpg" alt="Imagen 2" data-caption="Imagen 2">   
+            </section>
+            <section class="slider-section">
+                <img src="img/3.jpg" alt="Imagen 3" data-caption="Imagen 3">
+            </section>
+            <section class="slider-section">
+                <img src="img/4.jpg" alt="Imagen 4" data-caption="Imagen 4">
+            </section>
+            <section class="slider-section">
+                <img src="img/5.jpg" alt="Imagen 5" data-caption="Imagen 5">
+            </section>
+            <section class="slider-section">
+                <img src="img/6.avif" alt="Imagen 6" data-caption="Imagen 6">
+            </section>
+            <section class="slider-section">
+                <img src="img/7.jpg" alt="Imagen 7" data-caption="Imagen 7">
+            </section>
+            <section class="slider-section">
+                <img src="img/8.jpg" alt="Imagen 8" data-caption="Imagen 8">
+            </section>
+            <section class="slider-section">
+                <img src="img/9.jpg" alt="Imagen 9" data-caption="Imagen 9">
+            </section>
+            <section class="slider-section">
+                <img src="img/10.jpg" alt="Imagen 10" data-caption="Imagen 10">
+            </section>
+        </div>
+
+    </div>
+        <div class="btn-left"><i class='bx bx-chevron-left'></i></div>
+        <div class="btn-right"><i class='bx bx-chevron-right'></i></div>
+
+    <!-- Overlay para imagen ampliada: controlado por JS. Se estiliza desde style.css -->
+    <div id="image-overlay">
+        <div>
+            <img id="overlay-img" src="" alt="" />
+            <p id="overlay-caption"></p>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
