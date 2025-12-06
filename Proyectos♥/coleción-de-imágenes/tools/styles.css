@@ -9,6 +9,7 @@
 body {
   background: #000 url('https://cdn.pixabay.com/photo/2020/04/09/19/47/universe-5014530_1280.jpg') no-repeat center center;
   color: rgba(123, 31, 162, 0.2);
+  width: 100%;
 }
 
 h1 {
